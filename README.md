@@ -11,6 +11,8 @@ We are using the following toolings:
 - Mighty Web Secure Data Vault Account (anyone can sign up for a secure data vault)
 - Python Chainlit
 
+![Mighty Agent Identity + Auth Flow](./Mighty-OpenAI-Flow.png "Mighty Flow")
+
 ## Get Started
 
 Make sure you have Python 3.12+ or higher version running. 
