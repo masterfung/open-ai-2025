@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "biscuit-mighty-demo"
+version = "0.1.0"
+description = ""
+authors = ["Johnny Hung <johnny@mightynetwork.ai>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mighty-sdk-core = "^0.1.10"
+openai = "^1.84.0"
+langchain = "^0.3.25"
+langchain-community = "^0.3.24"
+langchain-openai = "^0.3.19"
+langgraph = "^0.4.8"
+chainlit = {git = "https://github.com/spartan-nguyentruong/chainlit.git", subdirectory = "backend/"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
